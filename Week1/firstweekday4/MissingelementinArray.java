@@ -11,9 +11,9 @@ public class MissingelementinArray {
 		for(int i=1;i<arr.length;i++)
 		{
 		   //System.out.println(arr[i]);
-		   if(i!=arr[i-1])
+		   if(i+1!=arr[i])
 		   {
-			   System.out.println(i);
+			   System.out.println(i+1);
 		   }
 	        
 		}
